@@ -11,9 +11,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_workbox_96c1c9b0 from 'nuxt_plugin_workbox_96c1c9b0' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_nuxticons_14af9088 from 'nuxt_plugin_nuxticons_14af9088' // Source: .\\nuxt-icons.js (mode: 'all')
-import nuxt_plugin_axios_5618b90c from 'nuxt_plugin_axios_5618b90c' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_workbox_04769fbb from 'nuxt_plugin_workbox_04769fbb' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_nuxticons_3eb50649 from 'nuxt_plugin_nuxticons_3eb50649' // Source: .\\nuxt-icons.js (mode: 'all')
+import nuxt_plugin_axios_511e465f from 'nuxt_plugin_axios_511e465f' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_main_1856e168 from 'nuxt_plugin_main_1856e168' // Source: ..\\plugins\\main.js (mode: 'all')
 import nuxt_plugin_index_5ba6429e from 'nuxt_plugin_index_5ba6429e' // Source: ..\\static\\css\\index.css (mode: 'all')
 
@@ -149,16 +149,16 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_workbox_96c1c9b0 === 'function') {
-    await nuxt_plugin_workbox_96c1c9b0(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_04769fbb === 'function') {
+    await nuxt_plugin_workbox_04769fbb(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxticons_14af9088 === 'function') {
-    await nuxt_plugin_nuxticons_14af9088(app.context, inject)
+  if (typeof nuxt_plugin_nuxticons_3eb50649 === 'function') {
+    await nuxt_plugin_nuxticons_3eb50649(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_5618b90c === 'function') {
-    await nuxt_plugin_axios_5618b90c(app.context, inject)
+  if (typeof nuxt_plugin_axios_511e465f === 'function') {
+    await nuxt_plugin_axios_511e465f(app.context, inject)
   }
 
   if (typeof nuxt_plugin_main_1856e168 === 'function') {
