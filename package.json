@@ -13,11 +13,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "amfe-flexible": "^2.2.1",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "framework7-vue": "^5.1.1",
-    "ionic": "^5.4.5",
     "nuxt": "^2.0.0",
     "postcss-px2rem": "^0.3.0",
     "vant": "^2.2.12"
