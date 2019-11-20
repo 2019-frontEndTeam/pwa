@@ -1,0 +1,19 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pd {
+  padding: 10px;
+}
+
+.mg {
+  margin: 10px;
+}

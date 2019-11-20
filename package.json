@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "My peachy Nuxt.js project",
+  "author": "pwa",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "amfe-flexible": "^2.2.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "framework7-vue": "^5.1.1",
+    "ionic": "^5.4.5",
+    "nuxt": "^2.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "vant": "^2.2.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "nodemon": "^1.18.9",
+    "postcss-pxtorem": "^4.0.1"
+  }
+}
