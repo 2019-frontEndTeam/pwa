@@ -38,7 +38,7 @@ build/Release
 node_modules/
 assets/
 layouts/
-components/
+/components
 middleware/
 pages/
 plugins/
@@ -79,7 +79,7 @@ typings/
 
 
 # Nuxt generate
-dist
+/dist
 
 # vuepress build output
 .vuepress/dist
